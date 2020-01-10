@@ -1,7 +1,7 @@
 Name: hunspell-da
 Summary: Danish hunspell dictionaries
 Version: 1.7.42
-Release: 1%{?dist}
+Release: 2%{?dist}
 Source: http://da.speling.org/filer/myspell-da-%{version}.tar.bz2
 Group: Applications/Text
 URL: http://da.speling.org/
@@ -33,7 +33,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
-* Thu Dec 31 2013 Caolán McNamara <caolanm@redhat.com> - 1.7.42-1
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.7.42-2
+- Mass rebuild 2013-12-27
+
+* Thu Jan 31 2013 Caolán McNamara <caolanm@redhat.com> - 1.7.42-1
 - latest version
 
 * Thu Jul 19 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.7.41-2
